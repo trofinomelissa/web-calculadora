@@ -1,20 +1,20 @@
 .view {
-	align-items: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .calc-border {
-	border-radius: 6px;
-	background-color: #000;
-	width: 150px;
-	padding: 10px;
+    border-radius: 6px;
+    background-color: #000;
+    width: 150px;
+    padding: 10px;
 }
 
 .calc {
-	display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -24,71 +24,63 @@
 
 .btn {
     display: inline-flex;
-	cursor: pointer;
-	border-width: 3px;
-	border-radius: 3px;
-	color: #FFF;
-	background-color: #333;
-	height: 30px;
-	width: 100%;
-	font-family: 'Gayathri', sans-serif;
-	font-size: 18px;
-
-    
+    cursor: pointer;
+    border-width: 3px;
+    border-radius: 3px;
+    color: #FFF;
+    background-color: #333;
+    height: 30px;
+    width: 100%;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
     justify-content: center;
-	align-items: center;
-
+    align-items: center;
 }
 
 .number {
-	
+    
 }
 
 .off {
-
-	font-size: 14px;
-	color: #EEE;
-	background-color: #FF990A;
+    font-size: 14px;
+    color: #EEE;
+    background-color: #FF990A;
 }
 
 .on {
     font-size: 14px;
     color: #EEE;
-	background-color: #56B6C2;
-	
-	
+    background-color: #56B6C2;
 }
 
 .addition {
 
-	grid-column-start: 4;
-	grid-column-end: 5;
-	grid-row-start: 5;
-	grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
 
-	height: 100%;
+    height: 100%;
     color: #EEE;
-	background-color: #56B6C2;
-
-	
+    background-color: #56B6C2;
 }
 
 .display {
 
-	grid-column-start: 1;
-	grid-column-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
 
-	color: #000;
+    color: #000;
     
     border-top: 2px solid #869C60;
-	border-left: 2px solid #869C60;
+    border-left: 2px solid #869C60;
 
-	border-right: 2px solid #555;
-	border-bottom: 2px solid #555;
-	background-color: #719C27;
-	height: 30px;
-	padding-right: 2px;
-	text-align: right;
-	font-family: 'ZCOOL QingKe HuangYou', cursive;
-	font-size: 26px;
+    border-right: 2px solid #555;
+    border-bottom: 2px solid #555;
+    background-color: #719C27;
+    height: 30px;
+    padding-right: 2px;
+    text-align: right;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 26px;
 }
