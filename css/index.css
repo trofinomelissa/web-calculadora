@@ -37,6 +37,14 @@
     align-items: center;
 }
 
+.btn:hover {
+    background-color: #444;
+}
+
+.btn:active {
+    background-color: #555;
+}
+
 .number {
     
 }
@@ -45,6 +53,14 @@
     font-size: 14px;
     color: #EEE;
     background-color: #FF990A;
+}
+
+.off:hover {
+    background-color: #EE8809;
+}
+
+.off:active {
+    background-color: #FF991A;
 }
 
 .on {
@@ -65,6 +81,15 @@
     background-color: #56B6C2;
 }
 
+.on:hover, .addition:hover {
+    background-color: #67C7D3;
+}
+
+.on:active, .addition:active {
+    background-color: #77CCEE;
+}
+
+
 .display {
 
     grid-column-start: 1;
@@ -77,10 +102,15 @@
 
     border-right: 2px solid #555;
     border-bottom: 2px solid #555;
+
     background-color: #719C27;
     height: 30px;
     padding-right: 2px;
     text-align: right;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 26px;
+}
+
+.display:active {
+    background-color: #82AD38;
 }
