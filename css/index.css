@@ -1,4 +1,26 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.rights {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    font-size: 12px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
 .view {
+
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -43,10 +65,6 @@
 
 .btn:active {
     background-color: #555;
-}
-
-.number {
-    
 }
 
 .off {
