@@ -67,9 +67,26 @@
     background-color: #555;
 }
 
-.off {
+.on, .off, .ce {
     font-size: 14px;
     color: #EEE;
+}
+
+.on {
+    background-color: #2DC926; 
+}
+
+.on:hover {
+
+    background-color: #26A31F;
+}
+
+.on:active {
+
+    background-color: #2DC926;
+}
+
+.off {
     background-color: #FF990A;
 }
 
@@ -81,9 +98,7 @@
     background-color: #FF991A;
 }
 
-.on {
-    font-size: 14px;
-    color: #EEE;
+.ce {
     background-color: #56B6C2;
 }
 
@@ -99,11 +114,11 @@
     background-color: #56B6C2;
 }
 
-.on:hover, .addition:hover {
+.ce:hover, .addition:hover {
     background-color: #67C7D3;
 }
 
-.on:active, .addition:active {
+.ce:active, .addition:active {
     background-color: #77CCEE;
 }
 
